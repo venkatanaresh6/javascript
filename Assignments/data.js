@@ -23,6 +23,6 @@ function changecolor4(){
     btn_ref1.style.backgroundColor='blue'
 }
 function changecolor5(){
-    let btn_ref1=document.getElementsByTagName('input')[1]
-    btn_ref1.style.backgroundColor='blue'
+    let x=document.getElementById('abc');
+    x.value=x.value.toUpperCase();
 }

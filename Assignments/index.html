@@ -9,31 +9,33 @@
     <div style="display: flex; gap: 250px;">
         <div>
             <h1>OnMouseOver:</h1>
-            <button style="height: 30%;width: 100%; background-color: red;">move-on-me</button>
+            <button style="height: 30%;width: 100%; background-color: red;" onmouseover="changecolor()">move-on-me</button>
         </div>
         <div>
             <h1>OnMouseOut:</h1>
-            <button style="height: 30%;width: 100%; background-color: red;">go-on-me</button>
+            <button style="height: 30%;width: 100%; background-color: red;" onmouseout="changecolor1()">go-on-me</button>
         </div>
         <div>
             <h1>OnClick:</h1>
-            <button style="height: 30%;width: 100%; background-color: red;">click-me</button>
+            <button style="height: 30%;width: 100%; background-color: red;" onclick="changecolor2()">click-me</button>
         </div>
     </div>
-    <div style="display: flex; gap: 250px;">
+    <div style="display: flex; gap: 260px; margin-top: 30px;">
         <div>
             <h1>OndblClick:</h1>
-            <button style="height: 30%;width: 100%; background-color: red;">double-click-me</button>
+            <button style="height: 30%;width: 100%; background-color: red;" ondblclick="changecolor3()">double-click-me</button>
         </div>
         <div>
             <h1>OnFocus:</h1>
             <form>
-                <input type="text">
+                <input type="text" onfocus="changecolor4()">
             </form>
         </div>
         <div>
-            <h1>OnClick:</h1>
-            <button style="height: 30%;width: 100%; background-color: red;">click-me</button>
+            <h1>Onblur:</h1>
+            <form>
+                <input type="text" onblur="changecolor5()">
+            </form>
         </div>
     </div>
 </body>

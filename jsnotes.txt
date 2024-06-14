@@ -1,0 +1,22 @@
+* Using JSON.stringify to print object content:
+------------------------------------------------
+JSON.stringify() is a method in JavaScript used to convert JavaScript objects into JSON strings.
+We can use JSON.stringify to print the content of an object in JavaScript.
+
+JS EVENTS:
+-----------
+**actions on elements are events**
+
+classified as :
+*mouse EVENTS
+*Form Events
+*Browser Events
+
+//all events are prefix with "on".
+
+advantages using flatten arrow:
+--------------------------------
+1.short /consice code.
+2.implict return.
+3.this->{}(pointer pointing to current object.)
+4.function hoisting conflicts are resolved.
